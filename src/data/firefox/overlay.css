@@ -1,0 +1,7 @@
+#istmphone {
+  list-style-image: url('../icon16.png') !important;
+}
+#istmphone[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #istmphone {
+  list-style-image: url('../icon32.png') !important;
+}

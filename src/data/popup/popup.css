@@ -1,0 +1,46 @@
+body {
+  width: 209px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0px 0px 0px 0px;
+  -moz-user-select: none;
+  cursor: defualt;
+  border: solid 0 red;
+}
+
+select {
+  width: 202px;
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px; 
+  color: #444;
+  -webkit-appearance: none;  
+  -moz-appearance: none;
+  cursor: pointer;
+  border-width: 0;
+  text-align: middle;
+  text-overflow: "";
+  text-align: middle;
+  text-indent: 0.01px; /* remove Firefox arrow */
+  background: url('dropdown.png') no-repeat right 5px center;
+  padding: 0 13px 0 2px;
+}
+
+select:focus {
+  outline: none;
+}
+
+#select-td {
+  border: solid 1px #CDCDCD;
+}
+
+#select-td:hover {
+  border: solid 1px #A8A8A8;
+}
+
+#qr-td {
+  width: 200px; 
+  height: 200px;
+  border: solid 0px rgba(76, 142, 251, 1.0);
+  border-radius: 2px;
+  background: #F5F5F5;
+}
