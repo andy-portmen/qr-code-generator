@@ -1,9 +1,9 @@
 {
   "name": "istmphone",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "title": "Send to My Phone (QR Code Generator)",
   "id": "jid1-dgAsBwQgc4SQBk",
-  "description": "Send Links to My Phone",
+  "description": "The easiest way to send a webpage from your desktop to cellphone browser",
   "author": "Andy Portmen",
   "license": "MPL 2.0",
   "main": "common"

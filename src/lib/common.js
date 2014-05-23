@@ -28,6 +28,8 @@ if (storage.read("version") != version()) {
 
 popup.receive("init", function () {
   tab.list().then(function (tabs) {
+    console.error(tabs);
+
     popup.send("list-update", tabs);
   });
 });
