@@ -1,0 +1,29 @@
+{
+  "name": "Send to My Phone (QR Code Generator)",
+  "short_name": "istmphone",
+  "description": "The easiest way to send a webpage from your desktop to cellphone",
+  "author": "Andy Portmen",
+  "version": "0.2.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "tabs",
+    "notifications",
+    "background"
+  ],
+  "web_accessible_resources": [],
+  "browser_action": {
+    "default_icon": "data/icons/16.png",
+    "default_popup": "data/popup/index.html"
+  },
+  "background": {
+    "page": "lib/chrome/background.html"
+  },
+  "options_page": "data/options/index.html",
+  "homepage_url": "http://add0n.com/send-to-myphone.html",
+  "icons": {
+    "16": "data/icons/16.png",
+    "48": "data/icons/48.png",
+    "128": "data/icons/128.png"
+  }
+}

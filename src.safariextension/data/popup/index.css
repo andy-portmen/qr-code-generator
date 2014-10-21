@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  background-color: #F5F5F5;
+  margin: 5px;
+  -moz-user-select: none;
+  cursor: defualt;
+  height: 100%;
+}
+
+.hl {
+  border: solid 1px #ABADB3;
+  border-radius: 0;
+}
+.hl:hover {
+  border-color: #A8A8A8;
+}
+
+#top-container {
+  border-spacing: 0;
+}
+
+#bottom-container {
+  border: solid 1px #ABADB3;
+  width: calc(100% - 2px);
+  margin: 3px 1px;
+  height: calc(100% - 38px);
+}
+.safari #bottom-container {
+  height: calc(100% - 45px);
+}
+
+#select-container {
+   overflow: hidden;
+   background-color: #fff;
+   height: 28px;
+}
+
+#url-select {
+  width: calc(100% + 30px);
+  height: calc(100% + 10px);
+  margin-top: -5px;
+  margin-left: -5px;
+
+  padding-left: 8px;
+
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(arrow.png) center right 32px no-repeat;
+  cursor: pointer;
+}
+
+#settings span {
+  display: block;
+  background: url(settings.png) center center no-repeat;
+  opacity: 0.8;
+  cursor: pointer;
+  width: 54px;
+  height: 28px;
+}
+#settings span:hover {
+  opacity: 1;
+}
+
+#qr-container {
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 0 10px #aaa;
+  padding: 5px;
+}
+#qr-image {
+  display: block;
+}
+
+#textarea-container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+#textarea {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  min-height: calc(100% - 10px);
+  border-width: 0;
+  font-size: 14px;
+  resize: none;
+}
+
+*:focus {
+  outline: none;
+}
